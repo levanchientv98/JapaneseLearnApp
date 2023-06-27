@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hoctiengnhat">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/icongogo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true">
+        <activity
+            android:name=".KhoiDong"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BoThu.MainBoThu"
+            android:theme="@style/AppTheme" android:launchMode="singleTask" />
+        <activity android:name=".BangChuCai.MainBangChuCai" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask"
+            />
+        <activity android:name=".BaiMinna.HienThiTuVung" />
+        <activity android:name=".BaiMinna.HienThiNguPhap" />
+        <activity android:name=".BaiMinna.HienThiTuVungThem" />
+        <activity android:name=".BaiMinna.HienThiHoiThoai" />
+        <activity android:name=".BaiMinna.HienThiHoiThoaiMau" />
+        <activity android:name=".BaiMinna.TabMinna" />
+        <activity android:name=".BaiMinna.ChiTietNguPhap" />
+        <activity android:name=".HuongDanSuDung" />
+        <activity android:name=".KiemTra.test_kata"></activity>
+        <activity android:name=".KiemTra.test_hira" />
+        <activity android:name=".TuKanji.MainKanji" />
+        <activity android:name=".TuKanji.ChiTietTuKanji" />
+        <activity
+            android:name=".TimKiem.timkiemtuvung" />
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bangchucai"
+            android:icon="@drawable/bangchucai"
+            android:title="Bảng chữ cái" />
+        <item
+            android:id="@+id/nav_baiminna"
+            android:icon="@drawable/baiminna"
+            android:title="50 bài Minna" />
+        <item
+            android:id="@+id/nav_tukanji"
+            android:icon="@drawable/chukanji"
+            android:title="512 từ Kanji" />
+        <item
+            android:id="@+id/nav_bothu"
+            android:icon="@drawable/bothu"
+            android:title="214 bộ thủ" />
+        <item
+            android:id="@+id/nav_timkiemtuvung"
+            android:icon="@drawable/look"
+            android:title="Tìm kiếm từ vựng" />
+        <item android:id="@+id/nav_kiemtra"
+            android:icon="@drawable/luyenthi"
+            android:title="Kiểm tra hiragana"/>
+    </group>
+</menu>
